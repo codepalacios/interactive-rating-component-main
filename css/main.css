@@ -1,0 +1,225 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Overpass", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  max-width: 20.4375rem;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+  border-radius: 15px;
+  margin: 1.5rem 24px;
+}
+
+.assessment {
+  padding: 1.5rem 24px 2rem;
+}
+
+.assessment__start {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 40px;
+}
+.assessment__start img {
+  width: 1.0625rem;
+  height: 1rem;
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.625rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.3125rem;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0.4944rem 0 1.4375rem;
+  text-align: center;
+  border: 1px dashed transparent;
+}
+
+legend {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: transparent;
+}
+
+ul {
+  color: hsl(216, 12%, 54%);
+  list-style: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.175px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 0.3125rem;
+}
+
+li {
+  width: 2.625rem;
+  height: 2.625rem;
+  line-height: 2.8125rem;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 42px;
+}
+li:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  transition: 0.5s;
+}
+
+button {
+  width: 100%;
+  height: 2.8125rem;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 22.5px;
+  border: none;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 1.867px;
+  text-transform: uppercase;
+  line-height: 3rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  transition: 0.5s;
+}
+
+.qualification {
+  padding: 2.125rem 1.5rem 2.3125rem;
+  text-align: center;
+}
+
+.qualification__img-thank-you {
+  margin-bottom: 1.5rem;
+  max-width: 9rem;
+  max-height: 6rem;
+}
+
+span {
+  display: block;
+  background-color: hsl(213, 19%, 18%);
+  max-width: 10.5rem;
+  min-height: 2rem;
+  margin: 0 auto;
+  padding: 0.3125rem 12px;
+  border-radius: 22.5px;
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.625rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.9756rem;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    max-width: 25.75rem;
+  }
+  .assessment {
+    padding: 2rem 39px 2rem 32px;
+  }
+  .assessment__start {
+    width: 3rem;
+    height: 3rem;
+  }
+  h1 {
+    margin-top: 1.875rem;
+    margin-bottom: 0.4375rem;
+    font-size: 1.75rem;
+    line-height: 2.6875rem;
+  }
+  p {
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+  }
+  fieldset {
+    margin: 0.4219rem 0 1.9375rem;
+  }
+  legend {
+    font-size: 0.9375rem;
+  }
+  ul {
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+  }
+  li {
+    width: 3.1875rem;
+    height: 3.1875rem;
+    line-height: 3.4375rem;
+  }
+  button {
+    font-size: 0.9375rem;
+    letter-spacing: 2px;
+    line-height: 3.0625rem;
+  }
+  .qualification {
+    padding: 2.8125rem 39px 2.8125rem 32px;
+  }
+  .qualification p {
+    letter-spacing: 0.1px;
+  }
+  .qualification__img-thank-you {
+    margin-bottom: 2rem;
+    max-width: 10.125rem;
+    max-height: 6.75rem;
+  }
+  span {
+    max-width: 12.0625rem;
+    padding: 0.25rem 19px 0.25rem 20px;
+    font-size: 0.9375rem;
+  }
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.4375rem;
+    font-size: 1.75rem;
+    line-height: 2.3506rem;
+  }
+}/*# sourceMappingURL=main.css.map */
