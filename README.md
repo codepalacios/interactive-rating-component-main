@@ -30,6 +30,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Sass
 
 ## Author
 
